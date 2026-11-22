@@ -1,21 +1,13 @@
 # banco_app
 
-> A Vue.js project
+Primera versión del front del banco de ejemplo: la plantilla base de Vue 2 con el encabezado y el pie de página, todavía sin pantallas.
 
-## Build Setup
+El proyecto continuó en **[Banco](https://github.com/juandavidalvarez9/Banco)**, que es la versión completa y actual: Vue 3, ingreso, consulta de saldo y retiros contra [banco_api](https://github.com/juandavidalvarez9/banco_api), con pruebas y capturas.
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+```mermaid
+flowchart LR
+    A["banco_app<br/>(este repositorio, 2020)"] -->|continuó en| B["Banco<br/>(front actual)"]
+    B -->|consume| C["banco_api<br/>(API)"]
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Este repositorio se conserva solo como historial. Para ejecutar o revisar el banco, usa `Banco`.
